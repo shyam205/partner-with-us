@@ -316,133 +316,7 @@
 
     // botique-designer css end 
 
-    // pricing section css start
-
-       .pricing-section{
-         width: 100%;
-         padding:50px 0 50px 0;
-         overflow: hidden;
-         box-sizing: border-box;
-         display: none;
-         .pricing-section-container{
-           display: flex;
-           flex-direction: row;
-           justify-content: space-between;
-           overflow-x:auto;
-           max-width:1030px;
-           margin:0 auto;
-           box-sizing: border-box;
-           .pricing-section-block{
-             padding:5px;
-           }
-           .pricing-section-header{
-            text-align: center;
-          }
-          .pricing-section-ptag{
-            text-align: center;
-            margin-top: 10px;
-            font-size: 19px;
-            font-weight: 700;
-            margin-right: 10px;
-            line-height: 1.5;
-          }
-          .pricing-register-btn{
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 20px;
-            border:1px solid white;
-            color:white;
-            text-decoration: none;
-            text-align: center;
-            margin-bottom: 0;
-            transition: 0.4s all linear;
-            &:hover{
-              background-color: white;
-              color: black;
-              border:1px solid black;
-            }
-          }
-          .pricing-sction-register-btn{
-            text-align: center;
-            background-color: black;
-            padding-bottom: 25px;
-            margin-top: -1px;
-          }
-           .pricing-section-container-first{
-             box-sizing: border-box;
-            border-radius: 15px;
-            overflow: hidden;
-             .pricing-section-container-block{
-              padding:20px;
-              max-width:300px;
-              height:650px;
-              background-color: black;
-              color:white;
-              .pricing-point{
-                display: block;
-                margin-top: 10px;
-                line-height: 1.5;
-                img{
-                  width: 15px;
-                  margin-right: 10px;
-                }
-             }
-              
-              }
-              
-           }
-           .pricing-section-container-second{
-            overflow: hidden;
-            border-radius: 15px;
-            padding:20x;
-            .pricing-section-container-block{
-              padding:20px;
-              max-width:300px;
-              height:650px;
-              background-color: black;
-              color:white;
-              .pricing-point{
-                display: block;
-                margin-top: 10px;
-                line-height: 1.5;
-                img{
-                  width: 15px;
-                  margin-right: 10px;
-                }
-             }
-              
-              }
-           }
-           .pricing-section-container-third{
-            box-sizing: border-box;
-            border-radius: 15px;
-            overflow: hidden;
-            .pricing-section-container-block{
-              padding: 20px;
-              max-width:300px;
-              height:650px;
-              background-color: black;
-              color:white;
-              .pricing-point{
-                display: block;
-                margin-top: 10px;
-                line-height: 1.5;
-                img{
-                  width: 15px;
-                  margin-right: 10px;
-                }
-             }
-              
-              }
-           }
-           &::-webkit-scrollbar{
-            display: none;
-          }
-         }
-         
-       }
-
-    // pricing section css end
+    
 
      // people pricing section
         .people-pricing-section{
@@ -460,16 +334,16 @@
              margin:0 auto;
              border:1px solid black;
              overflow: hidden;
-             padding-bottom:50px;
+        
              .people-pricing-section-container-detail{
-               padding:50px;
                display: flex;
                flex-direction: row;
                align-items: center;
                justify-content: center;
                .people-pricing-section-container-detail-box{
                  width:25%;
-                 
+                 padding: 50px 0px 50px 15px;
+                 border-left: 1px solid gray;
                }
              }
              .people-pricing-section-container-feature{
@@ -483,14 +357,36 @@
            }
            .people-pricing-section-container-feature-detail{
              width:100%;
-             margin-top:10px;
+             line-height: 1;
+             table{
+               width:100%;
+               tr{
+                 width:100%;
+                 td{
+                   width:25%;
+                   padding: 20px;
+                 }
+               }
+               
+             }
+             table, th, td {
+              border-right: 1px solid black;
+              border-collapse: collapse;
+            }
+             img{
+               height:25px;
+
+             }
              .people-pricing-section-container-feature-detail-box{
+              padding: 15px 0 0 0;
+              margin-right: 15px;
+              .people-pricing-section-container-feature-detail-box-tag{
+                border-right: 1px solid gray;
+              }
                  display: flex;
                  flex-direction: row;
                  align-items: center;
                  justify-content: center;
-                 padding:10px 0 10px 0;
-                
                  h1{
                    font-weight: 800;
                  }
@@ -499,6 +395,9 @@
                    padding-left: 20px;
                    font-size: 20px;
                    font-weight: 600;
+                   p{
+                     margin-bottom: 0;
+                   }
                  }
                  .feature-detail-box-sign{
                   width:25%;

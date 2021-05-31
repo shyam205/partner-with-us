@@ -418,157 +418,6 @@ header {
   color: white;
 }
 
-.pricing-section {
-  width: 100%;
-  padding: 50px 0 50px 0;
-  overflow: hidden;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: none;
-}
-
-.pricing-section .pricing-section-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  overflow-x: auto;
-  max-width: 1030px;
-  margin: 0 auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.pricing-section .pricing-section-container .pricing-section-block {
-  padding: 5px;
-}
-
-.pricing-section .pricing-section-container .pricing-section-header {
-  text-align: center;
-}
-
-.pricing-section .pricing-section-container .pricing-section-ptag {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 19px;
-  font-weight: 700;
-  margin-right: 10px;
-  line-height: 1.5;
-}
-
-.pricing-section .pricing-section-container .pricing-register-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 20px;
-  border: 1px solid white;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  margin-bottom: 0;
-  -webkit-transition: 0.4s all linear;
-  transition: 0.4s all linear;
-}
-
-.pricing-section .pricing-section-container .pricing-register-btn:hover {
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-}
-
-.pricing-section .pricing-section-container .pricing-sction-register-btn {
-  text-align: center;
-  background-color: black;
-  padding-bottom: 25px;
-  margin-top: -1px;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-first {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-first .pricing-section-container-block {
-  padding: 20px;
-  max-width: 300px;
-  height: 650px;
-  background-color: black;
-  color: white;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-first .pricing-section-container-block .pricing-point {
-  display: block;
-  margin-top: 10px;
-  line-height: 1.5;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-first .pricing-section-container-block .pricing-point img {
-  width: 15px;
-  margin-right: 10px;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-second {
-  overflow: hidden;
-  border-radius: 15px;
-  padding: 20x;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-second .pricing-section-container-block {
-  padding: 20px;
-  max-width: 300px;
-  height: 650px;
-  background-color: black;
-  color: white;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-second .pricing-section-container-block .pricing-point {
-  display: block;
-  margin-top: 10px;
-  line-height: 1.5;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-second .pricing-section-container-block .pricing-point img {
-  width: 15px;
-  margin-right: 10px;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-third {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 15px;
-  overflow: hidden;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-third .pricing-section-container-block {
-  padding: 20px;
-  max-width: 300px;
-  height: 650px;
-  background-color: black;
-  color: white;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-third .pricing-section-container-block .pricing-point {
-  display: block;
-  margin-top: 10px;
-  line-height: 1.5;
-}
-
-.pricing-section .pricing-section-container .pricing-section-container-third .pricing-section-container-block .pricing-point img {
-  width: 15px;
-  margin-right: 10px;
-}
-
-.pricing-section .pricing-section-container::-webkit-scrollbar {
-  display: none;
-}
-
 .people-pricing-section {
   width: 100%;
   overflow: auto;
@@ -586,11 +435,9 @@ header {
   margin: 0 auto;
   border: 1px solid black;
   overflow: hidden;
-  padding-bottom: 50px;
 }
 
 .people-pricing-section .people-pricing-section-container .people-pricing-section-container-detail {
-  padding: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,6 +455,8 @@ header {
 
 .people-pricing-section .people-pricing-section-container .people-pricing-section-container-detail .people-pricing-section-container-detail-box {
   width: 25%;
+  padding: 50px 0px 50px 15px;
+  border-left: 1px solid gray;
 }
 
 .people-pricing-section .people-pricing-section-container .people-pricing-section-container-feature {
@@ -622,10 +471,34 @@ header {
 
 .people-pricing-section .people-pricing-section-container-feature-detail {
   width: 100%;
-  margin-top: 10px;
+  line-height: 1;
+}
+
+.people-pricing-section .people-pricing-section-container-feature-detail table {
+  width: 100%;
+}
+
+.people-pricing-section .people-pricing-section-container-feature-detail table tr {
+  width: 100%;
+}
+
+.people-pricing-section .people-pricing-section-container-feature-detail table tr td {
+  width: 25%;
+  padding: 20px;
+}
+
+.people-pricing-section .people-pricing-section-container-feature-detail table, .people-pricing-section .people-pricing-section-container-feature-detail th, .people-pricing-section .people-pricing-section-container-feature-detail td {
+  border-right: 1px solid black;
+  border-collapse: collapse;
+}
+
+.people-pricing-section .people-pricing-section-container-feature-detail img {
+  height: 25px;
 }
 
 .people-pricing-section .people-pricing-section-container-feature-detail .people-pricing-section-container-feature-detail-box {
+  padding: 15px 0 0 0;
+  margin-right: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -639,7 +512,10 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px 0 10px 0;
+}
+
+.people-pricing-section .people-pricing-section-container-feature-detail .people-pricing-section-container-feature-detail-box .people-pricing-section-container-feature-detail-box-tag {
+  border-right: 1px solid gray;
 }
 
 .people-pricing-section .people-pricing-section-container-feature-detail .people-pricing-section-container-feature-detail-box h1 {
@@ -651,6 +527,10 @@ header {
   padding-left: 20px;
   font-size: 20px;
   font-weight: 600;
+}
+
+.people-pricing-section .people-pricing-section-container-feature-detail .people-pricing-section-container-feature-detail-box .feature-detail-box-tag p {
+  margin-bottom: 0;
 }
 
 .people-pricing-section .people-pricing-section-container-feature-detail .people-pricing-section-container-feature-detail-box .feature-detail-box-sign {
