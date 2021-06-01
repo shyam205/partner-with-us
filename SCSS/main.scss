@@ -132,7 +132,7 @@
        .register-btn{
         color: #bE505F !important;
         border: 1px solid #bE505F;
-        padding: 8px 20px 5px 20px;
+        padding: 7px 12px;
         border-radius: 1rem;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
         transition: 0.4s all linear;
@@ -156,14 +156,14 @@
          box-sizing: border-box;
          text-align: center;
          .register-here-button{
-          margin-top: 1rem;
+        
           display: inline-block;
           padding: 5px 15px;
           border: 1px solid #bE505F;
           border-radius: 1.6rem;
           text-decoration: none;
           color: #bE505F;
-          margin-top: 2rem;
+          margin-top: 1rem;
           font-weight: 600;
           border-radius: 1.6rem;
           text-align: center;
@@ -173,9 +173,9 @@
           
         }
          .selling-container{
-           max-width:1000px;
-           width:90%;
+           width:100%;
            margin:0 auto;
+          
            h2{
              text-align: center;
              margin-top:25px;
@@ -202,8 +202,8 @@
              .selling-container-images-section{
                width:33%;
                img{
-                 width:100px;
-                 height:50px;
+                 width:150px;
+                 height:150px;
                }
                span{
                  display: block;
@@ -226,22 +226,41 @@
          width:100%;
          overflow: hidden;
          box-sizing: border-box;
+         margin-top: 50px;
+         .second-section-header{
+          text-align: center;
+          font-size: 40px;
+          font-weight: 800;
+          margin-bottom: 35px;
+         }
          .second-section-container{
            display: flex;
            flex-direction: row;
            align-items: baseline;
            justify-content: center;
-           max-width: 1000px;
-           width:90%;
+           width:100%;
            margin:0 auto;
            text-align: center;
+           height:300px;
+           overflow: hidden;
            .second-section-container-box{
              width:calc(100%/3);
-             padding: 0 10px 0 0;
-             
+             padding: 0 10px 0 0; 
+             .second-section-container-box-image-section{
+               height:250px;
+               
+               overflow: hidden;
+               img{
+                 height:100%;
+                 width:100%;
+                 background-size: contain;
+                 object-fit: contain;
+                 object-position: center;
+               }
+             }
            }
            p{
-            font-size: 18px;
+            font-size: 22px;
             font-weight: 600;
             margin-top: 20px;
            }
@@ -363,7 +382,7 @@
              .people-pricing-section-container-detail{
                display: flex;
                flex-direction: row;
-               align-items: center;
+               align-items: baseline;
                justify-content: center;
                .people-pricing-section-container-detail-box{
                  width:25%;
@@ -387,8 +406,8 @@
                    }
                  }
                  img{
-                   width: 30px;
-                   height:30px;
+                   width: 50px;
+                   height:50px;
                    display: block;
                    margin: 20px auto 0 auto;
                  }
@@ -522,7 +541,10 @@
       font-size: 18px;
       font-weight: 600;
      }
-   
+     .testimonal-header{
+      font-size: 45px;
+      font-weight: 800;
+     }
        // footer section start
 
        .footer-section{
@@ -866,4 +888,37 @@
       .people-pricing-section h1 {
         font-size: 30px;
        }
+       .selling .selling-container .selling-container-images .selling-container-images-section img {
+         width: 100px;
+         height: 100px;
+      }
+      .people-pricing-section h1 {
+        font-size: 23px;
+      }
+      .selling .selling-container p {
+        font-size: 23px;
+      }
+      .testimonal-header {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 1.5;
+      }
+      .second-section .second-section-container{
+        height: 1000px;
+       }
+       .second-section .second-section-header {
+        font-size: 27px;
+       }
+       .Seller-icon{
+        transform: translateY(15px);
+       }
+       
     }
+
+    @media only screen and (max-width:320px){
+      .botique-designer .botique-designer-container .botique-designer-container-textsection .botique-designer-header {
+        font-size: 1.5rem;
+      }
+    }
+
+   

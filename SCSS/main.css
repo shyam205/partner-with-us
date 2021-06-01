@@ -188,7 +188,7 @@ header {
 .register-btn {
   color: #bE505F !important;
   border: 1px solid #bE505F;
-  padding: 8px 20px 5px 20px;
+  padding: 7px 12px;
   border-radius: 1rem;
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
           box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
@@ -218,14 +218,13 @@ header {
 }
 
 .selling .register-here-button {
-  margin-top: 1rem;
   display: inline-block;
   padding: 5px 15px;
   border: 1px solid #bE505F;
   border-radius: 1.6rem;
   text-decoration: none;
   color: #bE505F;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-weight: 600;
   border-radius: 1.6rem;
   text-align: center;
@@ -237,8 +236,7 @@ header {
 }
 
 .selling .selling-container {
-  max-width: 1000px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -284,8 +282,8 @@ header {
 }
 
 .selling .selling-container .selling-container-images .selling-container-images-section img {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 .selling .selling-container .selling-container-images .selling-container-images-section span {
@@ -305,6 +303,14 @@ header {
   overflow: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.second-section .second-section-header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 35px;
 }
 
 .second-section .second-section-container {
@@ -321,10 +327,11 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 1000px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  height: 300px;
+  overflow: hidden;
 }
 
 .second-section .second-section-container .second-section-container-box {
@@ -332,8 +339,23 @@ header {
   padding: 0 10px 0 0;
 }
 
+.second-section .second-section-container .second-section-container-box .second-section-container-box-image-section {
+  height: 250px;
+  overflow: hidden;
+}
+
+.second-section .second-section-container .second-section-container-box .second-section-container-box-image-section img {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .second-section .second-section-container p {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   margin-top: 20px;
 }
@@ -478,9 +500,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -515,8 +537,8 @@ header {
 }
 
 .people-pricing-section .people-pricing-section-container .people-pricing-section-container-detail .people-pricing-section-container-detail-box img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   display: block;
   margin: 20px auto 0 auto;
 }
@@ -674,6 +696,11 @@ header {
 .testimonal-subheading {
   font-size: 18px;
   font-weight: 600;
+}
+
+.testimonal-header {
+  font-size: 45px;
+  font-weight: 800;
 }
 
 .footer-section {
@@ -1043,6 +1070,37 @@ header {
   }
   .people-pricing-section h1 {
     font-size: 30px;
+  }
+  .selling .selling-container .selling-container-images .selling-container-images-section img {
+    width: 100px;
+    height: 100px;
+  }
+  .people-pricing-section h1 {
+    font-size: 23px;
+  }
+  .selling .selling-container p {
+    font-size: 23px;
+  }
+  .testimonal-header {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.5;
+  }
+  .second-section .second-section-container {
+    height: 1000px;
+  }
+  .second-section .second-section-header {
+    font-size: 27px;
+  }
+  .Seller-icon {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .botique-designer .botique-designer-container .botique-designer-container-textsection .botique-designer-header {
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
