@@ -156,7 +156,7 @@
          box-sizing: border-box;
          text-align: center;
          .register-here-button{
-          margin-top: 2rem;
+          margin-top: 1rem;
           display: inline-block;
           padding: 5px 15px;
           border: 1px solid #bE505F;
@@ -164,9 +164,13 @@
           text-decoration: none;
           color: #bE505F;
           margin-top: 2rem;
+          font-weight: 600;
           border-radius: 1.6rem;
           text-align: center;
           margin-bottom: 50px;
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+          transition: 0.4s all linear;
+          
         }
          .selling-container{
            max-width:1000px;
@@ -175,14 +179,14 @@
            h2{
              text-align: center;
              margin-top:25px;
-             font-size: 35px;
+             font-size: 40px;
              font-weight: 800;
            }
            p{
             text-align: center;
             margin-top: 30px;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 25px;
             padding-bottom: 10px;
            }
            .selling-container-images{
@@ -211,6 +215,7 @@
          .register-here-button:hover{
           background-color:#bE505F;
           color: white;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
        }
 
@@ -224,7 +229,7 @@
          .second-section-container{
            display: flex;
            flex-direction: row;
-           align-items: center;
+           align-items: baseline;
            justify-content: center;
            max-width: 1000px;
            width:90%;
@@ -233,6 +238,7 @@
            .second-section-container-box{
              width:calc(100%/3);
              padding: 0 10px 0 0;
+             
            }
            p{
             font-size: 18px;
@@ -247,6 +253,7 @@
           padding: 5px 15px;
           border: 1px solid #bE505F;
           border-radius: 1.6rem;
+          font-weight: 600;
           text-decoration: none;
           color: #bE505F;
           margin-top: 2rem;
@@ -256,10 +263,12 @@
           transition: 0.4s all linear;
           margin-left: 50%;
           transform: translateX(-50%);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
         }
          .register-here-button:hover{
           background-color:#bE505F;
           color: white;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
        }
 
@@ -303,11 +312,18 @@
                   .register-here-button{
                     margin-top: 2rem;
                     display: inline-block;
-                    padding: 1rem;
+                    padding: 7px 12px;
                     border: 1px solid white;
                     border-radius: 1.6rem;
                     text-decoration: none;
                     color: white;
+                    font-weight: 600;
+                    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+                    &:hover{
+                      background-color: white;
+                      color:#3E5377;
+                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    }
                   }
                }
                
@@ -320,6 +336,16 @@
 
      // people pricing section
         .people-pricing-section{
+          &::-webkit-scrollbar {
+            display: unset;
+        }
+          h1{
+            text-align: center;
+            font-size: 40px;
+            margin-top: 20px;
+            font-weight: 800;
+            margin-bottom: 20px;
+          }
           .detail-box-header{
             font-weight: bold;
           }
@@ -332,7 +358,6 @@
              min-width: 1200px;
              width:95%;
              margin:0 auto;
-             border:1px solid black;
              overflow: hidden;
         
              .people-pricing-section-container-detail{
@@ -344,11 +369,38 @@
                  width:25%;
                  padding: 50px 0px 50px 15px;
                  border-left: 1px solid gray;
+                 text-align: center;
+                 .select-plan{
+                   text-decoration: none;
+                   color: #3E5377;
+                   border:1px solid #3E5377;
+                   padding: 7px 12px;
+                   font-weight: 600;
+                   border-radius: 17px;
+                   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+                   transition: 0.4s all linear;
+                   &:hover{
+                       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                       text-decoration: none;
+                       color:white;
+                       background-color: #3E5377;
+                   }
+                 }
+                 img{
+                   width: 30px;
+                   height:30px;
+                   display: block;
+                   margin: 20px auto 0 auto;
+                 }
                }
              }
              .people-pricing-section-container-feature{
+               .people-pricing-section-container-feature-header{
+                 width: 25%;
+               }
                background-color: #D6D6D6;
                padding:15px;
+               text-align: center;
                h2{
                  font-size: 27px;
                  font-weight: 600;
@@ -358,6 +410,7 @@
            .people-pricing-section-container-feature-detail{
              width:100%;
              line-height: 1;
+             text-align: center;
              table{
                width:100%;
                tr{
@@ -426,7 +479,7 @@
              margin: 0 auto;
              h2{
              
-              font-size: 30px;
+              font-size: 40px;
               font-weight: 800;
              }
              p{
@@ -438,17 +491,20 @@
               margin-top: 25px;
               display: inline-block;
               padding: 10px 15px 10px 15px;
-              border: 1px solid black;
+              border: 1px solid #bE505F;
               border-radius: 1.6rem;
+              font-weight: 600;
               text-decoration: none;
-              color: black;
+              color: #bE505F;
               transition: 0.4s all linear;
+              box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
               span{
                 margin-left: 5px;
               }
               &:hover{
-                background-color: black;
+                background-color: #bE505F;
                 color: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
               }
               img{
                 transform: translateY(0px);
@@ -459,7 +515,7 @@
      // section four css start
 
      .testimonal-brand-heading{
-      font-size: 30px;
+      font-size: 40px;
       font-weight: 800;
      }
      .testimonal-subheading{
@@ -586,6 +642,7 @@
         .register-button{
             border-bottom: none !important;
             margin-top: 10px !important;
+            transform: translateY(8px);
         }
         .second-unorderlist{
             margin-top: 5px !important;
@@ -806,4 +863,7 @@
       .people-pricing-section .people-pricing-section-container {
         min-width: 1000px;
       }
+      .people-pricing-section h1 {
+        font-size: 30px;
+       }
     }

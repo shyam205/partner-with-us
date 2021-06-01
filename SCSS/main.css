@@ -218,7 +218,7 @@ header {
 }
 
 .selling .register-here-button {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: inline-block;
   padding: 5px 15px;
   border: 1px solid #bE505F;
@@ -226,9 +226,14 @@ header {
   text-decoration: none;
   color: #bE505F;
   margin-top: 2rem;
+  font-weight: 600;
   border-radius: 1.6rem;
   text-align: center;
   margin-bottom: 50px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+  -webkit-transition: 0.4s all linear;
+  transition: 0.4s all linear;
 }
 
 .selling .selling-container {
@@ -240,7 +245,7 @@ header {
 .selling .selling-container h2 {
   text-align: center;
   margin-top: 25px;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 800;
 }
 
@@ -248,7 +253,7 @@ header {
   text-align: center;
   margin-top: 30px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 10px;
 }
 
@@ -291,6 +296,8 @@ header {
 .selling .register-here-button:hover {
   background-color: #bE505F;
   color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .second-section {
@@ -308,9 +315,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -337,6 +344,7 @@ header {
   padding: 5px 15px;
   border: 1px solid #bE505F;
   border-radius: 1.6rem;
+  font-weight: 600;
   text-decoration: none;
   color: #bE505F;
   margin-top: 2rem;
@@ -348,11 +356,15 @@ header {
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
 }
 
 .second-section .register-here-button:hover {
   background-color: #bE505F;
   color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .botique-designer {
@@ -411,11 +423,21 @@ header {
 .botique-designer .botique-designer-container .botique-designer-container-textsection .register-here-button {
   margin-top: 2rem;
   display: inline-block;
-  padding: 1rem;
+  padding: 7px 12px;
   border: 1px solid white;
   border-radius: 1.6rem;
   text-decoration: none;
   color: white;
+  font-weight: 600;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+}
+
+.botique-designer .botique-designer-container .botique-designer-container-textsection .register-here-button:hover {
+  background-color: white;
+  color: #3E5377;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .people-pricing-section {
@@ -423,6 +445,18 @@ header {
   overflow: auto;
   background-color: white;
   padding-bottom: 50px;
+}
+
+.people-pricing-section::-webkit-scrollbar {
+  display: unset;
+}
+
+.people-pricing-section h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .people-pricing-section .detail-box-header {
@@ -433,7 +467,6 @@ header {
   min-width: 1200px;
   width: 95%;
   margin: 0 auto;
-  border: 1px solid black;
   overflow: hidden;
 }
 
@@ -457,11 +490,45 @@ header {
   width: 25%;
   padding: 50px 0px 50px 15px;
   border-left: 1px solid gray;
+  text-align: center;
+}
+
+.people-pricing-section .people-pricing-section-container .people-pricing-section-container-detail .people-pricing-section-container-detail-box .select-plan {
+  text-decoration: none;
+  color: #3E5377;
+  border: 1px solid #3E5377;
+  padding: 7px 12px;
+  font-weight: 600;
+  border-radius: 17px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+  -webkit-transition: 0.4s all linear;
+  transition: 0.4s all linear;
+}
+
+.people-pricing-section .people-pricing-section-container .people-pricing-section-container-detail .people-pricing-section-container-detail-box .select-plan:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  color: white;
+  background-color: #3E5377;
+}
+
+.people-pricing-section .people-pricing-section-container .people-pricing-section-container-detail .people-pricing-section-container-detail-box img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 20px auto 0 auto;
 }
 
 .people-pricing-section .people-pricing-section-container .people-pricing-section-container-feature {
   background-color: #D6D6D6;
   padding: 15px;
+  text-align: center;
+}
+
+.people-pricing-section .people-pricing-section-container .people-pricing-section-container-feature .people-pricing-section-container-feature-header {
+  width: 25%;
 }
 
 .people-pricing-section .people-pricing-section-container .people-pricing-section-container-feature h2 {
@@ -472,6 +539,7 @@ header {
 .people-pricing-section .people-pricing-section-container-feature-detail {
   width: 100%;
   line-height: 1;
+  text-align: center;
 }
 
 .people-pricing-section .people-pricing-section-container-feature-detail table {
@@ -557,7 +625,7 @@ header {
 }
 
 .section-four .section-four-container h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
 }
 
@@ -571,12 +639,15 @@ header {
   margin-top: 25px;
   display: inline-block;
   padding: 10px 15px 10px 15px;
-  border: 1px solid black;
+  border: 1px solid #bE505F;
   border-radius: 1.6rem;
+  font-weight: 600;
   text-decoration: none;
-  color: black;
+  color: #bE505F;
   -webkit-transition: 0.4s all linear;
   transition: 0.4s all linear;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
 }
 
 .section-four .section-four-container a span {
@@ -584,8 +655,10 @@ header {
 }
 
 .section-four .section-four-container a:hover {
-  background-color: black;
+  background-color: #bE505F;
   color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .section-four .section-four-container a img {
@@ -594,7 +667,7 @@ header {
 }
 
 .testimonal-brand-heading {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
 }
 
@@ -748,6 +821,8 @@ header {
   .register-button {
     border-bottom: none !important;
     margin-top: 10px !important;
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
   }
   .second-unorderlist {
     margin-top: 5px !important;
@@ -965,6 +1040,9 @@ header {
   }
   .people-pricing-section .people-pricing-section-container {
     min-width: 1000px;
+  }
+  .people-pricing-section h1 {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
