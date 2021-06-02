@@ -76,6 +76,7 @@
       header{
           width: 100%;
           overflow: hidden;
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
       }
       .nav{
           position: fixed;
@@ -231,7 +232,7 @@
           text-align: center;
           font-size: 40px;
           font-weight: 800;
-          margin-bottom: 35px;
+          margin-bottom: 50px;
          }
          .second-section-container{
            display: flex;
@@ -241,7 +242,7 @@
            width:100%;
            margin:0 auto;
            text-align: center;
-           height:300px;
+           height:370px;
            overflow: hidden;
            .second-section-container-box{
              width:calc(100%/3);
@@ -261,7 +262,7 @@
            }
            p{
             font-size: 22px;
-            font-weight: 600;
+            font-weight: 400;
             margin-top: 20px;
            }
           
@@ -275,7 +276,7 @@
           font-weight: 600;
           text-decoration: none;
           color: #bE505F;
-          margin-top: 2rem;
+          margin-top: 1rem;
           border-radius: 1.6rem;
           text-align: center;
           margin-bottom: 50px;
@@ -299,7 +300,7 @@
            overflow: hidden;
            background-color: #3E5377;
            padding:100px 0 100px 0;
-           margin-top: 90px;
+           margin-top: 89px;
            .botique-designer-container{
                width:90%;
                max-width: 1200px;
@@ -689,7 +690,7 @@
 
       // botique section start
       .botique-designer{
-        padding:20px 0 20px 0;
+        padding:20px 0 30px 0;
         .botique-designer-container{
             padding-top: 25px;
             height:max-content;
@@ -742,6 +743,7 @@
       .footer-secondsection-image img {
         margin-left: 140px !important;
       }
+     
     }
     @media only screen and (max-width:480px){
 
@@ -912,7 +914,12 @@
        .Seller-icon{
         transform: translateY(15px);
        }
-       
+       .botique-designer {
+        text-align: center;
+      }
+      .second-section .second-section-container p {
+        font-size: 18px;
+      }
     }
 
     @media only screen and (max-width:320px){
