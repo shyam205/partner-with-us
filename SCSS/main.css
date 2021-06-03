@@ -455,6 +455,8 @@ header {
   font-weight: 600;
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
           box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+  -webkit-transition: 0.4s all linear;
+  transition: 0.4s all linear;
 }
 
 .botique-designer .botique-designer-container .botique-designer-container-textsection .register-here-button:hover {
