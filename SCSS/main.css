@@ -385,8 +385,8 @@ header {
 .second-section .register-here-button:hover {
   background-color: #bE505F;
   color: white;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.9), 0 0px 0px 0px rgba(0, 0, 0, 0.19);
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.9), 0 0px 0px 0px rgba(0, 0, 0, 0.19);
 }
 
 .sell-your-way {
@@ -497,6 +497,7 @@ header {
 .botique-designer .botique-designer-container .botique-designer-container-textsection {
   width: 50%;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .botique-designer .botique-designer-container .botique-designer-container-textsection .botique-designer-header {
@@ -535,8 +536,8 @@ header {
 .botique-designer .botique-designer-container .botique-designer-container-textsection .register-here-button:hover {
   background-color: white;
   color: #BE505F;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .people-pricing-section {
